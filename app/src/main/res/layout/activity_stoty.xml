@@ -23,8 +23,10 @@
         android:id="@+id/choice1Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
         android:background="@android:color/white"
         android:textColor="#3A8AEC"
+        android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/choice2Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,8 +48,9 @@
             android:orientation="vertical" >
 
             <ImageView
+                android:contentDescription="@string/app_name"
                 android:id="@+id/storyImageView"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 tools:srcCompat="@drawable/page0" />
